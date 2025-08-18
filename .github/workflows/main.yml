@@ -1,0 +1,16 @@
+ame: Frist workflowes Ahmed Elfakharany
+on:
+  push:
+    branches: 
+      - main
+jobs:
+  exampels-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: print welcome a message
+        run: echo "welecome frist https://www.youtube.com/watch?v=7gJFHjXscr8&t=10859s"
+      - name: Checkout repository
+        uses: actions/checkout@v5.0.0
+      - name: List Repositry
+        run: ls -la
