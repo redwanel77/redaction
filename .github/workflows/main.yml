@@ -1,4 +1,4 @@
-ame: Frist workflowes Ahmed Elfakharany
+name: Frist workflowes redwanel
 on:
   push:
     branches: 
